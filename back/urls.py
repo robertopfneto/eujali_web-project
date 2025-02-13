@@ -1,6 +1,5 @@
 from django.db import router
 from django.urls import path, include
-from rest_framework.routers import DefaultRouter
 from views import home, listar_livros, ranking, perfil_usuario
 
 urlpatterns = [
